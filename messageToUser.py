@@ -104,6 +104,7 @@ with open('liste_utilisateurs.csv', 'r', newline='') as file:
             
             
             message_input = driver.find_element(By.XPATH, "/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[1]")
+            #Message à envoyer
             message = "Script Fonctionnel"
             
             for letter in message:
